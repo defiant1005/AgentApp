@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание от AgentApp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="main">
+            <div class="form">            
+                <div class="form_item">
+                    <label for="formkm" class="label">Количество километров</label>
+                    <input class="input" id="formkm" type="text">
+                </div>
+                <div class="form_item">
+                    <label for="formage" class="label">Возраст</label>
+                    <input class="input" id="formage" type="text" >
+                </div>
+                <div class="form_item">
+                    <label for="formmass" class="label">Вес багажа</label>
+                    <input class="input" id="formmass" type="text" >
+                </div>
+                <button class="btn">Рассчитать</button>
+            </div>
+            <div class="calculate">
+                <div class="ofer label">Предложения</div>
+                <div class="plane">
+                    <div class="aeroflot">Аэрофлот</div>
+                    <ul class="plane_list list" id="planeUl">
+                    </ul>
+                </div>
+                <div class="train">
+                    <div class="rjd">РЖД</div>
+                    <ul class="train_list list" id="trainUl">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
